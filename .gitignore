@@ -1,0 +1,20 @@
+# the images crawl from Instagram
+image/*
+
+# the directory where to store the checkpoint
+eval/*
+train/*
+
+# file not related
+*.ipynb
+
+#Pycharm setting
+.idea/*
+
+# pycache
+model/__pycache__/
+
+# large file
+model/test.tfrecords
+model/train.tfrecords
+
