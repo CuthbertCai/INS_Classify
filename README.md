@@ -13,9 +13,15 @@ thout batch normalization三个模型．
 - ins _ model.py,ins _ small _ model.py,ins _ small _ model _ bn
 分别设计了三种CNN模型用于训练和测试
 
+## 图片来源
+
+本项目的图片是通过在Instagram上[爬虫](https://github.com/CuthbertCai/Instagram)得到的
+
 由于文件大小的限制，本项目制作的tfrecords无法上传至github．可以
 通过ins _ image _ input.py自己制作数据集，也可以从网盘下载本项目
-的tfrecords.
+的[train.tfrecords](https://mega.nz/#!ErAwjZ7b)和[eval.tfrecords](https://mega.nz/#!5jJSwAJY).
+
+## 参考资料
 
 程序中的函数可以在[Tensorflow](https://www.tensorflow.org/)官网
 查找，将图像进行转化和读取可以参考[convert_to_records.py](https://github.com/tensorflow/tensorflow/blob/r1.2/tensorflow/examples/how_tos/reading_data/convert_to_records.py)
