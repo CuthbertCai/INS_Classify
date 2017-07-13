@@ -1,4 +1,4 @@
-# ** INS_CLassify **
+# INS_CLassify
 
 这是一个在Tensorflow上建立的CNN图片分类模型，训练和测试的图片均
 来自于对Instagram爬虫获得的图片．为了探究CNN深度以及batch norm-
