@@ -1,4 +1,4 @@
-# **INS _ CLassify**
+# ** INS_CLassify **
 
 这是一个在Tensorflow上建立的CNN图片分类模型，训练和测试的图片均
 来自于对Instagram爬虫获得的图片．为了探究CNN深度以及batch norm-
@@ -6,11 +6,11 @@ alization对于性能的影响，分别设计了deep model with batch norma-
 lization, simple model with batch normalizaion, simple model w-
 thout batch normalization三个模型．
 
-- ins _ image _ input.py用于将JPG格式的图片转化为tfrecords文件，
+- ins_image_input.py用于将JPG格式的图片转化为tfrecords文件，
 为训练和测试提供图片．
-- ins _ train.py用于对模型进行训练，并记录checkpoint
-- ins _ eval.py用于对模型进行测试，记录测试时的准确率
-- ins _ model.py,ins _ small _ model.py,ins _ small _ model _ bn
+- ins_train.py用于对模型进行训练，并记录checkpoint
+- ins_eval.py用于对模型进行测试，记录测试时的准确率
+- ins_model.py,ins_small_model.py,ins_small_model_bn
 分别设计了三种CNN模型用于训练和测试
 
 ## 图片来源
@@ -19,7 +19,7 @@ thout batch normalization三个模型．
 
 由于文件大小的限制，本项目制作的tfrecords无法上传至github．可以
 通过ins _ image _ input.py自己制作数据集，也可以从网盘下载本项目
-的[train.tfrecords](https://mega.nz/#!ErAwjZ7b)和[eval.tfrecords](https://mega.nz/#!5jJSwAJY).
+的[train.tfrecords](https://mega.nz/#!ErAwjZ7b!eDsQGf0WmmagZnaTYrmqu3T9_r8gOogrXHD0hodhxyk)和[eval.tfrecords](https://mega.nz/#!5jJSwAJY!sgb2zg1tVEpbcrFUCyZ3zvFfe4a_fROApg7HVZdiEWs).
 
 ## 参考资料
 
