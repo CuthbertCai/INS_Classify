@@ -1,9 +1,9 @@
 # INS_CLassify
 
 这是一个在Tensorflow上建立的CNN图片分类模型，训练和测试的图片均
-来自于对Instagram爬虫获得的图片．为了探究CNN深度以及batch norm-
-alization对于性能的影响，分别设计了deep model with batch norma-
-lization, simple model with batch normalizaion, simple model w-
+来自于对Instagram爬虫获得的图片．为了探究CNN深度以及batch norm
+alization对于性能的影响，分别设计了deep model with batch norma
+lization, simple model with batch normalizaion, simple model wi
 thout batch normalization三个模型．
 
 - ins_image_input.py用于将JPG格式的图片转化为tfrecords文件，
